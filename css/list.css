@@ -1,0 +1,143 @@
+/* 列表页的css */
+.sk {
+    position: absolute;
+    top:40px;
+    left: 185px;
+    height: 32px;
+    border-left: 2px solid #b1191a;
+    padding: 5px 0 0 15px;
+}
+.sk-list li {
+    float: left;
+    line-height: 45px;
+    margin:0 30px;
+}
+.sk-list li a {
+    font-size: 16px;
+    color:black;
+    font-weight: 700;
+}
+.sk-list li a:hover {
+    color:#c81523;
+}
+.sk-con li {
+    float: left;
+    line-height: 45px;
+    margin:0 28px;
+}
+.sk-con li a {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'icomoon';
+}
+/* 列表页内容区域 */
+.sk-bd {
+    margin-top: 20px;
+}
+.sk-bd ul {
+    width: 1212px;
+}
+.sk-goods {
+    float: left;
+    width: 290px;
+    height: 460px;
+    border:1px solid transparent;
+    position: relative;
+    margin: 0 12px 15px 0;
+}
+.sk-goods:hover {
+    border-color: #e12228;
+}
+.sk-goods img {
+    padding:24px 43px;
+}
+.sk-goods-title {
+    font-size: 14px;
+    font-weight: normal;
+    color:#666;
+    padding: 10px;
+}
+.sk-goods-price {
+    padding: 0px 10px ;
+}
+.sk-goods-price em {
+    font-size: 22px;
+    color: #e60012;
+}
+.sk-goods-price del {
+    font-size: 14px;
+    font-weight: 700;
+    color:#ccc;
+} 
+.sk-goods-progress {
+    padding:0 10px;
+}
+.bar {
+    display: inline-block;
+    width: 130px;
+    height: 10px;
+    border:1px solid #b1191a;
+    vertical-align: middle;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+.bar-in {
+    width: 87%;
+    height: 10px;
+    background-color: #f24349;
+}
+.sk-goods-progress em,
+.sk-goods-progress i  {
+    color: #f24349;
+}
+.sk-goods-buy {
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    height: 50px;
+    background-color: #b1191a;
+    color:#fff;
+    text-align:center;
+    line-height:50px;
+    font-size: 20px;
+}
+.page {
+    margin: 40px 0;
+    text-align: center;
+    /* 里面的文字内容 行内块 行内元素 都可以居中对齐 */
+}
+.page_num a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+}
+.page_num .pn-prev, .page_num .pn-next {
+    width: 85px;
+}
+.page_num .current , .page_num .dotted{
+    border: 1px solid transparent;
+    background: transparent;
+}
+.page_skip input {
+    border:1px solid #ccc;
+    width: 46px;
+    height: 36px;
+    text-align: center;
+    /* 过渡写在本身上 谁做动画给谁加 */
+    transition: all 1s;
+}
+.page_skip button {
+    width: 54px;
+    height: 36px;
+    border:1px solid #ccc;
+    background-color: #f7f7f7;
+}
+/* 表单获得光标后 */
+.page_skip input:focus {
+    border: 1px solid skyblue;
+    width: 88px;
+}
+
